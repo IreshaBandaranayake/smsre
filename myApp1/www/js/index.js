@@ -61,8 +61,8 @@ var app = {
         sms.send(number, message, options, success, error);
     }
 	
-	   sendSms: function() {
-        var number = document.getElementById('numberTxt').value.toString(); /* iOS: ensure number is actually a string */
+/*	   sendSms: function() {
+        var number = document.getElementById('numberTxt').value.toString(); /* iOS: ensure number is actually a string 
         var message = document.getElementById('messageTxt').value;
         console.log("number=" + number + ", message= " + message);
  
@@ -78,7 +78,7 @@ var app = {
         var success = function () { alert('Message sent successfully'); };
         var error = function (e) { alert('Message Failed:' + e); };
         sms.send(number, message, options, success, error);
-    }
-};
+    }*/
+}; 
 
 app.initialize();
